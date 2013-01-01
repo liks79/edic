@@ -2,12 +2,15 @@
 
 
 ## LOCALE 설정에 따라 인코딩 선택 added by Jou Sung-Shik ##
+SCRIPT_FILE_NAME=$(readlink -f "$0")
+SCRIPT_PATH=`dirname "$SCRIPT_FILE_NAME"`
+
 if [ $LANG = "ko_KR.eucKR" ]; then
-  cd data/euc-kr;./edic.euckr
+  $SCRIPT_PATH/data/euc-kr/edic.euckr
 elif [ $LANG = "ko_KR.UTF-8" ]; then
-  cd data/utf-8;./edic.utf8
+  $SCRIPT_PATH/data/utf-8/edic.utf8
 else
   ## 디폴트 utf8
-  cd data/utf-8;./edic.utf8
+  $SCRIPT_PATH/data/utf-8/edic.utf8
 fi
 ###########################################################
