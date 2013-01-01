@@ -56,39 +56,23 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키
     Information from the binary package:
     
     Name        : engdic
-    
     Version     : 0.1
-    
     Release     : 6
-    
     Architecture: noarch
-    
     Install Date: (not installed)
-    
     Group       : Extensions/Korean/Utilities/Text
-    
     Size        : 2291146
-    
     License     : distributable
-    
     Signature   : RSA/MD5, 1998년 11월 19일 (목) 오전 10시 58분 22초, Key ID 369a7855d7341f8d
-    
     Source RPM  : engdic-0.1-6.src.rpm
-    
     Build Date  : 
-    
     Build Host  : linux.sarang.net
-    
     Relocations : (not relocatable)
-    
     Packager    : ALzzA Team <alzza@linux.sarang.net>
-    
     Vendor      : Alzza Team
-    
     Summary     : Little korean - english dictionary
     
     Description :
-    
     Little korean - english dictionary
 
 
