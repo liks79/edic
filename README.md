@@ -11,7 +11,7 @@
 ----
 현재 원저작자가 누구인지 알 수 없는 상태입니다.
 혹시 아시는분은 알려주시면 감사하겠습니다.
-github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라온 파일을 이용했습니다.
+github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키지 파일을 이용했습니다.
 아래링크 참고
 
 * http://www.phpschool.com/gnuboard4/bbs/download.php?bo_table=download&wr_id=33&no=0
