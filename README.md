@@ -25,6 +25,30 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키
 배포에 문제가 발생한다면 바로 저장소를 삭제하겠습니다.
 (당시 알짜(ALZZA) 리눅스 배포본에 기본으로 포함되어 있었습니다. 아마도 GPL에 준하는 라이선스이지 않을까 생각됩니다.)
 
+* 다음은 원본 RPM 패키지에 포함되어있던 COPYRIGHT 정보입니다.
+
+>Copyright: distributable
+>
+>Information from the binary package:
+>Name        : engdic
+>Version     : 0.1
+>Release     : 6
+>Architecture: noarch
+>Install Date: (not installed)
+>Group       : Extensions/Korean/Utilities/Text
+>Size        : 2291146
+>License     : distributable
+>Signature   : RSA/MD5, 1998년 11월 19일 (목) 오전 10시 58분 22초, Key ID 369a7855d7341f8d
+>Source RPM  : engdic-0.1-6.src.rpm
+>Build Date  : 
+>Build Host  : linux.sarang.net
+>Relocations : (not relocatable)
+>Packager    : ALzzA Team <alzza@linux.sarang.net>
+>Vendor      : Alzza Team
+>Summary     : Little korean - english dictionary
+>Description :
+>Little korean - english dictionary
+
 
 수정내용
 --------
@@ -53,6 +77,5 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키
 스크린샷
 --------
 * ScreenShot.png
-
-[ScreenShot.png]: ScreenShot.png "Screen Shot"
+![ScreenShot](./ScreenShot.png "")
 
