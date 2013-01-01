@@ -1,7 +1,10 @@
 #!/bin/sh
 
+SCRIPT_FILE_NAME=$(readlink -f "$0")
+SCRIPT_PATH=`dirname "$SCRIPT_FILE_NAME"`
 
-SHARE=.
+SHARE=$SCRIPT_PATH
+
 findword () {
 if [ "$WORD" = "" ]; then 
         echo; echo '** 영한사전을 마칩니다.'
