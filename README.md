@@ -49,3 +49,10 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라온 파일을 이
 * 'edic' 이 존재하는 디렉토리에 PATH 설정하기
 * PATH 적용 후 `edic` 실행
 
+
+스크린샷
+--------
+* ScreenShot.png
+
+[ScreenShot.png]: ScreenShot.png "Screen Shot"
+
