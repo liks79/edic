@@ -3,11 +3,11 @@
 
 ## LOCALE 설정에 따라 인코딩 선택 added by Jou Sung-Shik ##
 if [ $LANG = "ko_KR.eucKR" ]; then
-  ./data/euc-kr/edic.euckr
+  cd data/euc-kr;./edic.euckr
 elif [ $LANG = "ko_KR.UTF-8" ]; then
-  ./data/utf-8/edic.utf8
+  cd data/utf-8;./edic.utf8
 else
   ## 디폴트 utf8
-  ./data/utf-8/edic.utf8
+  cd data/utf-8;./edic.utf8
 fi
 ###########################################################
