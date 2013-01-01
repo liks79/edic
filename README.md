@@ -17,6 +17,30 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키
 * http://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=download&wr_id=33
 
 
+수정내용
+--------
+* 인코딩 변경 : alien을 이용하여 deb로 변환한 후 우분투에 설치해보니 잘 작동 하더군요.
+다만, 십수년전 버전이라서 euc-kr로 인코딩된 사전데이터들을 iconv를 이용하여 utf-8로 
+변경 하였습니다.
+
+* 스크립트 수정 : edic 스크립트를 약간 수정하여 인코딩을 euc-kr 과 utf-8을 선택할 수 있도록 하였습니다.
+(luit 명령어를 이용하여 인코딩을 바꿀수 도 있지만, utf-8 인코딩 파일을 포함하였습니다.)
+
+* 디렉토리 변경 : /usr/share/engdic 에 사전데이터를 포함하고 있었는데, 이를 data/euc-kr , data/utf-8 로
+분리하여 각각의 인코딩 데이터를 포함하도록 하였습니다.
+
+* euc-kr용 edic인 edic.euckr 과 utf-8용 edic.utf8 을 각각 data/euc-kr 과 data/utf-8 디렉토리에 생성
+
+* edic 실행 스크립트가 $LANG 환경변수에 따라(ko_KR.UTF-8 혹은 ko_KR.eucKR) edic.euckr과 edic.utf8을 실행 할 수 있도록 수정함
+
+
+사용법
+------
+* edic 가져오기 : git clone https://github.com/liks79/edic.git
+* 'edic' 이 존재하는 디렉토리에 PATH 설정하기
+* PATH 적용 후 `edic` 실행
+
+
 라이선스
 --------
 원저작자도 알수없고, 라이선스 표시도 되어 있지 않습니다.
@@ -67,29 +91,6 @@ github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키
     
     Little korean - english dictionary
 
-
-수정내용
---------
-* 인코딩 변경 : alien을 이용하여 deb로 변환한 후 우분투에 설치해보니 잘 작동 하더군요.
-다만, 십수년전 버전이라서 euc-kr로 인코딩된 사전데이터들을 iconv를 이용하여 utf-8로 
-변경 하였습니다.
-
-* 스크립트 수정 : edic 스크립트를 약간 수정하여 인코딩을 euc-kr 과 utf-8을 선택할 수 있도록 하였습니다.
-(luit 명령어를 이용하여 인코딩을 바꿀수 도 있지만, utf-8 인코딩 파일을 포함하였습니다.)
-
-* 디렉토리 변경 : /usr/share/engdic 에 사전데이터를 포함하고 있었는데, 이를 data/euc-kr , data/utf-8 로
-분리하여 각각의 인코딩 데이터를 포함하도록 하였습니다.
-
-* euc-kr용 edic인 edic.euckr 과 utf-8용 edic.utf8 을 각각 data/euc-kr 과 data/utf-8 디렉토리에 생성
-
-* edic 실행 스크립트가 $LANG 환경변수에 따라(ko_KR.UTF-8 혹은 ko_KR.eucKR) edic.euckr과 edic.utf8을 실행 할 수 있도록 수정함
-
-
-사용법
-------
-* edic 가져오기 : git clone https://github.com/liks79/edic.git
-* 'edic' 이 존재하는 디렉토리에 PATH 설정하기
-* PATH 적용 후 `edic` 실행
 
 
 스크린샷
