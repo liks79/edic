@@ -14,7 +14,7 @@
 github 저장소에 업로드한 `edic` 은 PHPSCHOOL에 올라왔던 RPM 패키지 파일을 이용했습니다.
 아래링크 참고
 
-* http://www.phpschool.com/gnuboard4/bbs/download.php?bo_table=download&wr_id=33&no=0
+* http://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=download&wr_id=33
 
 
 라이선스
